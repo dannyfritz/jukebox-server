@@ -6,6 +6,7 @@ module.exports = {
         "promise"
     ],
     "rules": {
-      "quotes": [2, "double"]
+      "quotes": ["error", "double"],
+      "comma-dangle": ["error", "always-multiline"]
     }
 };
